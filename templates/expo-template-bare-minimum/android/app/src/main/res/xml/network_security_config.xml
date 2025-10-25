@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">120.24.221.164</domain>
+    </domain-config>
+
+    <!-- 其他主机默认仍禁止明文 -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
